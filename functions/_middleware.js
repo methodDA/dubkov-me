@@ -5,9 +5,7 @@ export async function onRequest(context) {
   // Только для корня сайта — редирект по стране
   if (url.pathname === "/") {
     const country = request.cf?.country || "US";
-    const ruCountries = [
-      "RU", "BY", "KZ", "UZ", "KG", "TJ", "UA", "MD", "AM", "AZ", "GE"
-    ];
+    const ruCountries = ["RU", "BY"];
 
     const lang = ruCountries.includes(country) ? "/ru/" : "/en/";
     return Response.redirect(url.origin + lang, 302);
