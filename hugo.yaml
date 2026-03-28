@@ -2,7 +2,7 @@ baseURL: "https://dubkov.me/"
 title: "Alexey Dubkov"
 theme: "terminal"
 
-defaultContentLanguage: ru
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 
 languages:
