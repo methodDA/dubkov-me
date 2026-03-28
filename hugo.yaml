@@ -1,0 +1,31 @@
+baseURL: "https://dubkov.me/"
+title: "Alexey Dubkov"
+theme: "PaperMod"
+
+defaultContentLanguage: ru
+defaultContentLanguageInSubdir: true
+
+languages:
+  ru:
+    languageName: "Русский"
+    weight: 1
+  en:
+    languageName: "English"
+    weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  ShowLanguageSwitcher: true
+  defaultTheme: light
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: false
+  ShowBreadCrumbs: false
+  ShowPostNavLinks: false
+  ShowCodeCopyButtons: false
+  assets:
+    favicon: "/images/favicon.ico"
