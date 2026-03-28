@@ -20,6 +20,19 @@
   {{ end }}
 </head>
 <body>
+  {{ if eq .Lang "ru" }}
+  <script>
+  (function() {
+    if (!sessionStorage.getItem("lang_checked")) {
+      sessionStorage.setItem("lang_checked", "1");
+      var lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+      if (!lang.startsWith("ru")) {
+        window.location.replace("/en/");
+      }
+    }
+  })();
+  </script>
+  {{ end }}
   <div class="terminal">
     {{- partial "header.html" . -}}
     <main>
