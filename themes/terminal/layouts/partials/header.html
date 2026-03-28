@@ -1,11 +1,12 @@
 <header class="top-bar">
   <span class="site-name">alexey@dubkov.me</span>
-  {{ if eq .Lang "en" }}
   <nav class="lang-switch">
-    {{ range .Translations }}
-      <a href="{{ .Permalink }}">RU</a>
+    {{ if eq .Lang "ru" }}
+      <a href="{{ .Permalink }}" class="active">RU</a>
+      {{ range .Translations }}<a href="{{ .Permalink }}">EN</a>{{ end }}
+    {{ else }}
+      {{ range .Translations }}<a href="{{ .Permalink }}">RU</a>{{ end }}
+      <a href="{{ .Permalink }}" class="active">EN</a>
     {{ end }}
-    <a href="{{ .Permalink }}" class="active">EN</a>
   </nav>
-  {{ end }}
 </header>
