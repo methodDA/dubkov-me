@@ -1,0 +1,6 @@
+name = "Terminal"
+license = "MIT"
+description = "A minimal terminal-style theme"
+
+[author]
+  name = "Alexey Dubkov"

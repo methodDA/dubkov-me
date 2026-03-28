@@ -1,6 +1,6 @@
 baseURL: "https://dubkov.me/"
 title: "Alexey Dubkov"
-theme: "PaperMod"
+theme: "terminal"
 
 defaultContentLanguage: ru
 defaultContentLanguageInSubdir: true
@@ -19,13 +19,4 @@ markup:
       unsafe: true
 
 params:
-  ShowLanguageSwitcher: true
-  defaultTheme: light
-  disableThemeToggle: false
-  ShowShareButtons: false
-  ShowReadingTime: false
-  ShowBreadCrumbs: false
-  ShowPostNavLinks: false
-  ShowCodeCopyButtons: false
-  assets:
-    favicon: "/images/favicon.ico"
+  favicon: "/images/favicon.ico"
