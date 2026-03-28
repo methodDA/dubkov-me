@@ -3,7 +3,7 @@ title: "Alexey Dubkov"
 theme: "terminal"
 
 defaultContentLanguage: ru
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 languages:
   ru:

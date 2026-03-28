@@ -8,7 +8,9 @@
 (function() {
   if (window.location.pathname === "/") {
     var lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
-    window.location.replace(lang.startsWith("ru") ? "/ru/" : "/en/");
+    if (!lang.startsWith("ru")) {
+      window.location.replace("/en/");
+    }
   } else {
     window.location.replace("{{ .Permalink }}");
   }
