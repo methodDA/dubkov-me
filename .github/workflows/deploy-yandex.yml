@@ -1,0 +1,32 @@
+name: Deploy to Yandex Object Storage
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.159.1'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to Yandex Object Storage
+        run: |
+          aws s3 sync public/ s3://alexey-hugo-site \
+            --endpoint-url=https://storage.yandexcloud.net \
+            --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_SECRET_KEY }}
+          AWS_DEFAULT_REGION: ru-central1
