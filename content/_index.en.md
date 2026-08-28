@@ -6,7 +6,7 @@ title: "Alexey Dubkov"
 
 ## Owner of a 1C implementation business {#business}
 
-I am 39 years old and have been working in the IT field since 2009. I started with support and development of products based on 1C. For the last 7 years, I have been running my own [business](https://www.metrics.su) specializing in the implementation of 1C products.
+I am 39 years old and have been working in the IT field since 2009. I started with support and development of products based on 1C. For the last 7 years, I have been running my own business specializing in the implementation of 1C products.
 
 Additionally, I consult on aligning business needs with IT infrastructure and IT specialists.
 
