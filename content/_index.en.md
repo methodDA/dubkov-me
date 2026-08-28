@@ -6,7 +6,7 @@ title: "Alexey Dubkov"
 
 ## Owner of a 1C implementation business {#business}
 
-I'm an IT entrepreneur with over 15 years of experience. I started my career in 2009 with 1C-based solutions and have been running my own business for the past 7 years, specializing in 1C implementation and IT consulting.
+I'm an IT entrepreneur with over 15 years of experience. I started my career in 2009 with 1C-based solutions and have been running my own business for the past 9 years, specializing in 1C implementation and IT consulting.
 
 I also help businesses align their needs with the right IT infrastructure, solutions, and teams.
 
