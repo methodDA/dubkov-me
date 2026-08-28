@@ -4,7 +4,7 @@
       <span class="active">RU</span>
       {{ range .Translations }}<a href="{{ .Permalink }}">EN</a>{{ end }}
     {{ else }}
-      {{ range .Translations }}<a href="{{ .Permalink }}">RU</a>{{ end }}
+      {{ range .Translations }}<a href="{{ .Permalink }}?lang=ru">RU</a>{{ end }}
       <span class="active">EN</span>
     {{ end }}
   </nav>

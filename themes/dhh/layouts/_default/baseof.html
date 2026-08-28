@@ -19,17 +19,10 @@
 </head>
 <body class="{{ if .IsHome }}home{{ else }}post{{ end }}">
   {{ if and .IsHome (eq .Lang "ru") }}
-  <script>
-  (function() {
-    if (!sessionStorage.getItem("lang_checked")) {
-      sessionStorage.setItem("lang_checked", "1");
-      var lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
-      if (!lang.startsWith("ru")) {
-        window.location.replace("/en/");
-      }
-    }
-  })();
-  </script>
+  {{/* Гео-редирект не-RU трафика делает Redirect Rule в Cloudflare.
+       Cookie — исключение из правила: раз человек дошёл до русской
+       страницы, дальше его на /en/ не уводим. */}}
+  <script>document.cookie = "lang=ru;path=/;max-age=31536000;SameSite=Lax";</script>
   {{ end }}
 
   {{- partial "header.html" . -}}
