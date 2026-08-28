@@ -1,0 +1,11 @@
+<header>
+  {{ with .Params.avatar }}
+  <img src="{{ . }}" width="128" height="128" class="avatar" alt="{{ $.Title }}">
+  {{ end }}
+
+  <h1>{{ with .Params.name_html }}{{ . | safeHTML }}{{ else }}{{ $.Title }}{{ end }}</h1>
+
+  {{ with .Params.intro }}
+  <p class="header">{{ . | safeHTML }}</p>
+  {{ end }}
+</header>

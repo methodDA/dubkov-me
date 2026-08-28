@@ -4,19 +4,26 @@ title: "Alexey Dubkov"
 
 <img src="/images/photo.jpg" alt="Alexey Dubkov" class="profile-photo" />
 
-<div class="prompt">whoami</div>
-<div class="output">Alexey Dubkov</div>
+## Owner of a 1C implementation business {#business}
 
-<div class="prompt">cat about.txt</div>
-<div class="output">I am 39 years old and have been working in the IT field since 2009. I started with support and development of products based on 1C. For the last 7 years, I have been running my own business specializing in the implementation of 1C products. Additionally, I consult on aligning business needs with IT infrastructure and IT specialists.</div>
+I am 39 years old and have been working in the IT field since 2009. I started with support and development of products based on 1C. For the last 7 years, I have been running my own [business](https://www.metrics.su) specializing in the implementation of 1C products.
 
-<div class="prompt">cat services.txt</div>
-<div class="output">I implement <a href="https://www.odoo.com">Odoo</a> ERP solutions for businesses and actively leverage AI to automate business processes — from intelligent reporting and predictive analytics to workflow automation.</div>
+Additionally, I consult on aligning business needs with IT infrastructure and IT specialists.
 
-<div class="prompt">cat running.txt</div>
-<div class="output">Captain of <a href="https://www.instagram.com/connect_running/">Connect Running Club</a> — a running community where everyone feels welcome, included, and free to be themselves.</div>
+## AI inside accounting systems {#ai}
 
-<div class="prompt">cat contact.txt</div>
-<div class="output">Telegram: <a href="https://t.me/method_msk">t.me/method_msk</a></div>
+I put AI inside the systems a business already runs on, not next to them: it pulls complex reports together from data scattered across comments and call recordings, untangles free-text addresses into structured fields, and reads meter data straight off a photo, all on the client's own server. AI also speeds up our own development and analytics.
 
-<div class="prompt"><span class="cursor"></span></div>
+## Implementing Odoo {#odoo}
+
+I implement [Odoo](https://www.odoo.com) ERP solutions for businesses — from intelligent reporting and predictive analytics to workflow automation.
+
+## Running club {#running}
+
+Captain of [Connect Running Club](https://www.instagram.com/connect_running/) — a running community where everyone feels welcome, included, and free to be themselves.
+
+## Contact {#contact}
+
+Telegram: [t.me/method_msk](https://t.me/method_msk)
+
+Email: [alexey@dubkov.me](mailto:alexey@dubkov.me)

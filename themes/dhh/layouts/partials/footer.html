@@ -1,0 +1,12 @@
+<footer>
+  <nav class="langs">
+    {{ if eq .Lang "ru" }}
+      <span class="active">RU</span>
+      {{ range .Translations }}<a href="{{ .Permalink }}">EN</a>{{ end }}
+    {{ else }}
+      {{ range .Translations }}<a href="{{ .Permalink }}">RU</a>{{ end }}
+      <span class="active">EN</span>
+    {{ end }}
+  </nav>
+  <p>&copy; {{ now.Year }} dubkov.me</p>
+</footer>

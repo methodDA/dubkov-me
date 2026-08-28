@@ -1,0 +1,6 @@
+name = "DHH"
+license = "MIT"
+description = "Single-page personal site: centred header, one reading column, system type, light/dark."
+
+[author]
+  name = "Alexey Dubkov"

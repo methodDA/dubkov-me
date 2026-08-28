@@ -1,6 +1,6 @@
 baseURL: "https://dubkov.me/"
 title: "Alexey Dubkov"
-theme: "terminal"
+theme: "dhh"
 
 defaultContentLanguage: ru
 defaultContentLanguageInSubdir: false
